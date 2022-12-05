@@ -1,0 +1,33 @@
+{
+
+  "manifest_version": 2,
+  "name": "SaveMyChat",
+  "version": "1.0",
+
+  "description": "...",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "permissions": [
+      "activeTab"
+    ],
+
+  "browser_action": {
+    "default_icon": "icons/border-48.png",
+    "default_title": "Save"
+  },
+
+  // "background": {
+  //   "scripts": ["background.js"]
+  // },
+
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/chat"],
+      "js": ["content.js"]
+    }
+  ]
+
+}
