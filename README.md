@@ -1,7 +1,7 @@
 # chatgpt-exploration
  
 ## Files
-`pup.js` contains "A Silly Script to Open ChatGPT from a puppet browser"
+`pup.js` contains a very short script to Open ChatGPT from a puppet browser. Could be used to do some browser automation down the line (e.g., for "audits").
 
 `SaveMyChat` contains a very short browser extension for saving ChatGPT conversations
 
