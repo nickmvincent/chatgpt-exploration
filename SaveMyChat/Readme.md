@@ -6,6 +6,7 @@ To run as Temporary Add-on:
 - Load Temporary Add-on
 - Select `manifest.json` (or other file)
 
+See example [here](https://github.com/nickmvincent/chatgpt-exploration/blob/main/SaveMyChatExamples/chatgpt_2022-12-06.json).
 
 
 The extension adds a single button to the ChatGPT interface, "Save Conversation" (it also shows a blue border around the window, just as an easy way to confirm it loaded). Click the button to send a json file with each message in the current conversation to your browser Downloads location, titled based on the current date.
